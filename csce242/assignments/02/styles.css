@@ -1,0 +1,106 @@
+body {
+	background: url(images/grass.jpg);
+	background-size: cover;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.italics {
+	font-style: italic;
+}
+
+#main-title {
+	text-align: center;
+	background-color: burlywood;
+	width: 30%;
+	margin: auto;
+	border: solid black 3px;
+	color: rgb(99, 51, 16);
+}
+
+#main-nav {
+	margin: 10px;
+}
+
+#main-nav ul {
+	padding-left: 0;
+	width: fit-content;
+	margin: auto;
+}
+
+#main-nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+#main-nav a {
+	text-decoration: none;
+	background: saddlebrown;
+	border: solid black 2px;
+	color: lightgoldenrodyellow;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#main-nav a:hover {
+	background-color: lightgoldenrodyellow;
+	color: brown;
+}
+
+#content {
+	width: 80%;
+	margin: auto;
+}
+
+#info {
+	display: flex;
+}
+
+.info-box {
+	background-color: burlywood;
+	flex: 1;
+	margin: 10px;
+	border: solid black 2px;
+}
+
+.info-img {
+	background-color: saddlebrown;
+	width: 90%;
+	margin: 10px auto;
+	border: solid black 6px;
+	padding: 5px;
+}
+
+.info-box img {
+	max-width: 100%;
+}
+
+.info-box p {
+	padding: 0 10px;
+}
+
+#species {
+	background-color: burlywood;
+	width: 60%;
+	padding: 10px 10px 30px 10px;
+	margin: auto;
+	border: solid black 2px;
+}
+
+#species h2 {
+	color: rgb(99, 51, 16);
+	text-align: center;
+}
+
+#species-table {
+	padding: 3px;
+	border: solid black 2px;
+	background-color: saddlebrown;
+	width: 60%;
+	margin: auto;
+	color: lightgoldenrodyellow;
+}
+
+td {
+	border-top: solid black 1px;
+	padding: 5px;
+}
