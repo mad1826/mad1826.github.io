@@ -3,6 +3,14 @@ body {
 	background-color: rgb(43, 43, 43);
 }
 
+header {
+	background-color: brown;
+	color: lightgoldenrodyellow;
+	width: 100px;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+
 #title {
 	text-align: center;
 	color: lightgoldenrodyellow;
@@ -18,12 +26,13 @@ body {
 	margin: auto;
 	padding: 10px;
 	color: darkred;
+	border-radius: 10px;
 }
 
 #content h2 {
 	color: lightgoldenrodyellow;
 	background-color: brown;
-	width: 30%;
+	width: 45%;
 	margin: auto;
 	text-align: center;
 	border: solid rgb(43, 43, 43) 2px;
@@ -31,19 +40,16 @@ body {
 }
 
 #assignments {
-	width: 20%;
-	margin: auto;
 	padding-top: 10px;
 	padding-left: 0px;
+	margin: 0px 20px;
 }
 
-#assignments li {
-	list-style-type: none;
+#assignments article {
 	background-color: rgb(43, 43, 43);
 	border-radius: 5px;
-	margin-bottom: 3px;
+	margin-bottom: 20px;
 	text-align: center;
-	height: 20px;
 	border: solid black 2px;
 }
 
@@ -59,4 +65,46 @@ body {
 
 #assignments li:hover a {
 	color: rgb(43, 43, 43);
+}
+
+.assignment-image {
+	width: 85%;
+	margin: auto;
+}
+
+.assignment-image img {
+	width: 100%;
+}
+
+#assignments h1 {
+	margin: 20px;
+}
+
+#assignments p {
+	margin: 20px;
+}
+
+footer {
+	background-color: brown;
+	color: lightgoldenrodyellow;
+	width: 100px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+@media only screen and (min-width: 600px) {
+	#content h2 {
+		width: 35%;
+	}
+
+	#assignments {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	#assignments article {
+		max-width: 30%;
+		flex: 1;
+	}
 }
