@@ -6,9 +6,15 @@ body {
 header {
 	background-color: brown;
 	color: lightgoldenrodyellow;
-	width: 100px;
+	width: fit-content;
 	border-radius: 5px;
 	margin-left: 30px;
+	text-align: center;
+	padding: 2px;
+}
+
+.empty {
+	visibility: hidden;
 }
 
 #title {
@@ -39,13 +45,13 @@ header {
 	border-radius: 5px;
 }
 
-#assignments {
+section {
 	padding-top: 10px;
 	padding-left: 0px;
 	margin: 0px 20px;
 }
 
-#assignments article {
+article {
 	background-color: rgb(43, 43, 43);
 	border-radius: 5px;
 	margin-bottom: 20px;
@@ -53,34 +59,30 @@ header {
 	border: solid black 2px;
 }
 
-#assignments li:hover {
+article:hover {
+	background-color: darkslategray;
+}
+
+section li:hover {
 	color: rgb(43, 43, 43);
 	background-color: lightgoldenrodyellow;
 }
 
-#assignments a {
+section a {
 	text-decoration: none;
 	color: lightgoldenrodyellow;
 }
 
-#assignments li:hover a {
-	color: rgb(43, 43, 43);
-}
-
-.assignment-image {
+.section-image {
 	width: 85%;
 	margin: auto;
 }
 
-.assignment-image img {
+.section-image img {
 	width: 100%;
 }
 
-#assignments h1 {
-	margin: 20px;
-}
-
-#assignments p {
+section p {
 	margin: 20px;
 }
 
@@ -98,13 +100,14 @@ footer {
 		width: 35%;
 	}
 
-	#assignments {
+	section {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 
-	#assignments article {
+	article {
 		max-width: 30%;
-		flex: 1;
+		flex: 30%;
 	}
 }
