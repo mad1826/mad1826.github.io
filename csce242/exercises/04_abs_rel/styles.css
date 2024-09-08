@@ -1,5 +1,6 @@
 :root {
 	--main-background-color: skyblue;
+	--gallery-back: aliceblue;
 }
 
 body {
@@ -25,6 +26,12 @@ img {
 
 #main-img {
 	margin-right: 5px;
+}
+
+#gallery section {
+	background-color: aliceblue;
+	padding: 10px;
+	margin: 10px;
 }
 
 #login-menu {
@@ -53,6 +60,38 @@ img {
 	text-decoration: underline;
 }
 
+#ball {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background: magenta;
+	border-radius: 50%;
+	animation-name: bounce;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+	0% {
+		background: magenta;
+		top: 0;
+	}
+	25% {
+		background: cyan;
+	}
+	50% {
+		background: yellow;
+		top: 100px;
+	}
+	75% {
+		background: blue;
+	}
+	100% {
+		background: green;
+		top: 0px;
+	}
+}
+
 @media only screen and (min-width: 600px) {
 	#content {
 		width: 70%;
@@ -68,6 +107,18 @@ img {
 	}
 
 	#login-menu ul {
-		display: block;
+		display: flex;
+	}
+
+	.one {
+		flex: 1;
+	}
+
+	#gallery {
+		flex-wrap: wrap;
+	}
+
+	#gallery section {
+		flex: 29%;
 	}
 }
