@@ -1,0 +1,676 @@
+/* General */
+:root {
+	--garnet: #73000a;
+	--lightred: #cc2e40;
+	--darkgarnet: rgba(89, 0, 2, 1);
+	--lightgray: #ececec;
+	--gray: #5b5b5b;
+	--subheading: #dadada;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+p {
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.horizontal-list {
+	display: block;
+}
+
+.horizontal-list li {
+	display: inline-block;
+}
+
+.horizontal-list a {
+	color: white;
+	text-decoration: none;
+}
+
+.horizontal-list a:hover {
+	background-color: var(--lightred);
+}
+
+.content {
+	width: 95%;
+	margin: auto;
+}
+
+.columns-all {
+	display: flex;
+}
+
+/* Header */
+#main-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	height: 9%;
+}
+
+#main-header img {
+	position: absolute;
+	left: 3%;
+	top: 15%;
+	height: 70%;
+}
+
+#gateways {
+	display: none;
+	position: absolute;
+	right: 10%;
+	top: 0%;
+	width: 50%;
+	height: 15%;
+	font-size: xx-small;
+}
+
+.bold {
+	font-weight: 800;
+	color: white;
+	float: right;
+	line-height: 1;
+}
+
+#gateways li {
+	float: right;
+	color: white;
+	margin: 0 5px;
+	height: 100%;
+}
+
+#gateways a {
+	text-decoration: none;
+	color: white;
+}
+
+#gateways a:hover {
+	background-color: var(--lightred);
+}
+
+#other-gateways li {
+	border-right: solid white 1px;
+	padding: 0 10px;
+	margin: 0;
+}
+
+#other-gateways .no-separator {
+	border-right: none;
+}
+
+#search {
+	display: none;
+	position: absolute;
+	height: 20%;
+	width: 18%;
+	right: 12%;
+	top: 25%;
+	border: solid white 1.5px;
+	background-color: black;
+}
+
+#search::placeholder {
+	color: white;
+	font-weight: 900;
+	padding-left: 10px;
+}
+
+#main-nav-large {
+	display: none;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 30%;
+	width: 100%;
+	background-color: var(--garnet);
+}
+
+#main-nav-small {
+	position: relative;
+	background-color: black;
+}
+
+.main-nav ul {
+	position: relative;
+	height: 100%;
+	justify-content: space-between;
+	display: block;
+	margin-top: 0;
+}
+
+.main-nav li {
+	position: relative;
+	text-align: left;
+	padding: 8px;
+	border-top: solid white 1px;
+	display: block;
+}
+
+#main-nav-large li:hover {
+	background-color: var(--darkgarnet);
+}
+
+#main-nav-large a {
+	width: fit-content;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 0.5px;
+	height: 60%;
+	top: 15%;
+	position: relative;
+	padding: 2px;
+	font-size: 110%;
+}
+
+#main-nav-small li {
+	padding: 15px 10px;
+	font-weight: 800;
+}
+
+#main-nav-small .subheading {
+	background-color: var(--gray);
+	color: var(--subheading);
+	padding: 5px 10px;
+	font-size: 70%;
+}
+
+#nav-space {
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+
+/* Intro */
+#bg-space {
+	position: relative;
+	width: 100%;
+}
+
+#intro {
+	position: relative;
+	background-color: white;
+}
+
+#intro-header {
+	color: var(--garnet);
+	font-size: 300%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#intro-bold {
+	font-weight: 800;
+}
+
+#intro-text {
+	background-color: white;
+	line-height: 1.8;
+	padding-bottom: 80px;
+}
+
+/* Programs */
+#programs {
+	position: relative;
+	background-color: var(--garnet);
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#program-image {
+	width: 90%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+#program-image img {
+	width: 100%;
+	height: 100%;
+}
+
+#program-text {
+	width: 87%;
+	margin: auto;
+	font-size: 115%;
+	line-height: 1.5;
+	padding-bottom: 50px;
+}
+
+#program-text h2 {
+	font-size: 150%;
+	font-weight: 800;
+}
+
+#program-text p {
+	margin-bottom: 50px;
+}
+
+#program-text a {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	border: solid white 2px;
+	font-weight: 800;
+	margin-bottom: 50px;
+}
+
+#program-text a:hover {
+	background-color: white;
+	color: var(--garnet);
+}
+
+/* Fees */
+#fees {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	background-color: var(--lightgray);
+}
+
+#fees h1 {
+	color: var(--garnet);
+	font-weight: 800;
+	font-size: 250%;
+}
+
+#fees p {
+	width: 65%;
+	margin: auto;
+	line-height: 2;
+}
+
+#fees a {
+	background-color: var(--garnet);
+	color: white;
+	text-decoration: none;
+	padding: 15px 20px;
+	font-weight: 800;
+	font-size: 125%;
+}
+
+#fees a:hover {
+	background-color: white;
+	color: var(--garnet);
+	border: solid var(--garnet) 1px;
+}
+
+/* Paying */
+#paying {
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#paying h1 {
+	color: var(--garnet);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 280%;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+#paying p {
+	margin-bottom: 50px;
+}
+
+#paying-columns {
+	margin: auto;
+}
+
+#paying a {
+	max-width: 22%;
+	text-decoration: none;
+	text-align: left;
+}
+
+#paying a:hover {
+	background-color: var(--lightgray);
+}
+
+#paying-columns img {
+	width: 100%;
+}
+
+#paying h2 {
+	color: var(--garnet);
+	font-size: 125%;
+	padding: 0 12px;
+}
+
+#paying p {
+	color: black;
+	padding: 0 12px;
+}
+
+/* Apply */
+#apply {
+	position: relative;
+	background-color: black;
+	color: white;
+}
+
+#apply-image {
+	width: 90%;
+	margin: auto;
+}
+
+#apply-image img {
+	width: 100%;
+}
+
+#apply-text {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#apply-text h2 {
+	font-size: 250%;
+	margin: 0;
+}
+
+#apply-text p {
+	margin-bottom: 60px;
+}
+
+#apply-text a {
+	background-color: var(--garnet);
+	color: white;
+	border: solid white 1px;
+	text-decoration: none;
+	padding: 15px 20px;
+	font-weight: 800;
+	font-size: 150%;
+}
+
+#apply-text a:hover {
+	background-color: white;
+	color: var(--garnet);
+	border: solid var(--garnet) 2px;
+}
+
+/* Footer */
+#main-footer {
+	position: relative;
+	top: 250%;
+	width: 100%;
+	left: 0;
+	color: white;
+}
+
+#garnet-footer {
+	position: relative;
+	width: 100%;
+	background-color: var(--garnet);
+	padding-bottom: 40px;
+}
+
+#garnet-footer-top {
+	width: 100%;
+	padding: 25px 0;
+}
+
+.garnet-image {
+	display: inline-block;
+	width: 100%;
+}
+
+#socials {
+	text-align: center;
+}
+
+#middle-social {
+	margin: 0 10px;
+}
+
+#garnet-footer-logo {
+	margin: auto;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+.garnet-icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.garnet-icon img {
+	width: 100%;
+	height: 100%;
+}
+
+#garnet-footer h3 {
+	font-size: 90%;
+}
+
+#garnet-footer hr {
+	margin: 0;
+}
+
+#garnet-footer ul {
+	margin: 0;
+}
+
+#garnet-footer li {
+	margin: 10px 0;
+}
+
+#garnet-footer a {
+	padding: 2px;
+	color: white;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+}
+
+#garnet-footer .columns-all a:hover {
+	background-color: var(--lightred);
+}
+
+#garnet-footer .columns-all {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#garnet-footer ul {
+	width: 40%;
+}
+
+#black-footer {
+	border-top: solid white 1px;
+	background-color: black;
+	padding: 5px 5px 15px 5px;
+	text-align: center;
+}
+
+#black-footer ul {
+	margin: 0;
+}
+
+#black-footer li {
+	border-right: solid white 1px;
+}
+
+#black-footer .no-separator {
+	border-right: none;
+}
+
+#black-footer a {
+	font-size: 75%;
+	margin: 10px;
+	padding: 1px;
+}
+
+#copy a {
+	margin: 0 5px 0;
+}
+
+#copy a:hover {
+	background-color: inherit;
+}
+
+@media only screen and (min-width: 800px) {
+	.columns {
+		display: flex;
+	}
+
+	.content {
+		width: 78%;
+	}
+
+	.one {
+		flex: 1;
+	}
+
+	.two {
+		flex: 2;
+	}
+
+	.three {
+		flex: 3;
+	}
+
+	#main-header {
+		position: fixed;
+		height: 25%;
+	}
+
+	#main-header img {
+		height: 35%;
+		margin-top: 10px;
+		margin-left: 135px;
+	}
+
+	#gateways {
+		display: block;
+	}
+
+	#main-nav-large {
+		display: block;
+	}
+
+	#main-nav-small {
+		display: none;
+	}
+
+	.main-nav ul {
+		display: flex;
+		text-transform: uppercase;
+		width: 75%;
+		margin: auto;
+	}
+
+	.main-nav li {
+		border: none;
+		text-align: center;
+	}
+
+	#search {
+		display: block;
+	}
+
+	#nav-space {
+		display: none;
+	}
+
+	#bg-space {
+		position: relative;
+		top: 40px;
+		left: 0px;
+		width: 100%;
+		height: 625px;
+		background: url(images/davis_college.jpg);
+		background-size: 100%;
+	}
+
+	#bg-space img {
+		display: none;
+	}
+
+	#intro-header {
+		position: absolute;
+		top: -30%;
+		left: 10%;
+		width: fit-content;
+		background-color: var(--garnet);
+		color: white;
+		padding: 10px;
+		font-size: 60px;
+		font-weight: lighter;
+		font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+		margin-top: 70px;
+	}
+
+	#intro-text {
+		width: 68%;
+		margin: auto;
+		padding-top: 80px;
+	}
+
+	#program-image {
+		padding-top: 0;
+	}
+
+	#program-text {
+		padding: 80px 0;
+	}
+
+	#paying-columns {
+		justify-content: space-between;
+	}
+
+	#apply .content {
+		display: flex;
+	}
+
+	#apply-image {
+		flex: 1;
+	}
+
+	#apply-text {
+		flex: 2.5;
+		margin: 75px 40px 0;
+	}
+
+	#offices {
+		padding: 0 25px;
+	}
+
+	.garnet-image {
+		width: 50%;
+	}
+
+	#garnet-footer-logo {
+		margin: inherit;
+	}
+
+	#socials {
+		text-align: right;
+	}
+
+	#garnet-footer ul {
+		flex: 1;
+	}
+
+	#black-footer {
+		text-align: left;
+	}
+}
