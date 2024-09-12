@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Michael Davis - CSCE 242 -->
+		<link rel="stylesheet" href="styles.css" />
+		<title>JavaScript Intro - Assignment 5</title>
+	</head>
+	<body>
+		<h1>Assignment 5</h1>
+		<h2>Introduction to JavaScript</h2>
+		<div class="columns">
+			<div id="count-container" class="box clickable">
+				<h3>Count</h3>
+				<p id="count">0</p>
+			</div>
+			<div class="box">
+				<h3>Random Image</h3>
+				<img
+					id="random-img"
+					class="clickable"
+					src="https://picsum.photos/200"
+				/>
+			</div>
+			<div class="box">
+				<h3>Slider Move</h3>
+				<input
+					type="range"
+					min="1"
+					max="100"
+					value="50"
+					class="slider"
+					id="myRange"
+				/>
+				<div id="movable-img-container">
+					<img id="movable-img" src="https://place-hold.it/200" />
+				</div>
+			</div>
+		</div>
+		<p>@mad1826</p>
+		<script src="script.js"></script>
+	</body>
+</html>

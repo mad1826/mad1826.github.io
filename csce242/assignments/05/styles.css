@@ -1,0 +1,107 @@
+body {
+	background-color: gray;
+	text-align: center;
+	color: darkblue;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0 10px;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+.box {
+	background-color: lightgray;
+	margin: 40px;
+	height: 400px;
+	outline: solid skyblue 3px;
+	border-radius: 5px;
+}
+
+.clickable:hover {
+	cursor: pointer;
+	outline: solid red 5px;
+}
+
+#count {
+	font-size: 100px;
+}
+
+h3 {
+	padding-top: 20px;
+}
+
+.slider {
+	appearance: none;
+	-webkit-appearance: none;
+	width: 90%;
+	margin: auto;
+	height: 25px;
+	background: gray;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: 0.2s;
+	transition: opacity 0.2s;
+}
+
+.slider:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: darkblue;
+	cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+	outline: solid red 5px;
+	border-radius: 3px;
+}
+
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: darkblue;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb:hover {
+	outline: solid red 5px;
+	border-radius: 3px;
+}
+
+#movable-img-container {
+	position: relative;
+	height: 80%;
+	text-align: left;
+}
+
+#movable-img {
+	position: relative;
+	top: 10%;
+	width: 50%;
+	left: 25%;
+}
+
+@media only screen and (min-width: 600px) {
+	body {
+		margin: 0 50px;
+	}
+
+	h3 {
+		padding-top: 0;
+	}
+
+	.columns {
+		display: flex;
+	}
+
+	.box {
+		flex: 1;
+	}
+}
