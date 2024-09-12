@@ -22,3 +22,8 @@ document.getElementById('anim').onclick = () => {
 	if (stuff.classList.contains('animated')) stuff.classList.remove('animated')
 	else stuff.classList.add('animated')
 }
+
+document.getElementById('txt-first-name').onkeyup = (ev) => {
+	// document.getElementById('txt-first-name).value
+	document.getElementById('result').innerHTML = ev.target.value;
+}
