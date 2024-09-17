@@ -19,7 +19,6 @@ export default [
 			}
 		},
 		rules: {
-			'semi': 'error',
 			'prefer-const': 'error',
 			'@stylistic/arrow-parens': ['error', 'as-needed'],
 			'@stylistic/block-spacing': 'error',
