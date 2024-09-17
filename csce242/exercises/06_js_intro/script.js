@@ -1,29 +1,29 @@
-const myButton = document.getElementById('btn-click')
+const myButton = document.getElementById('btn-click');
 
 myButton.onclick = () => {
-	document.getElementById('message').innerHTML = 'Hello World!'
-	document.getElementById('stuff').classList.add('special')
+	document.getElementById('message').innerHTML = 'Hello World!';
+	document.getElementById('stuff').classList.add('special');
 };
 
-const goodbye = document.getElementById('say-goodbye')
+const goodbye = document.getElementById('say-goodbye');
 goodbye.onclick = () => {
 	goodbye.innerHTML = 'Goodbye Everyone!';
-	document.getElementById('stuff').classList.remove('special')
-}
+	document.getElementById('stuff').classList.remove('special');
+};
 
 document.getElementById('hide').onclick = () => {
-	const one = document.getElementsByClassName('one')[0]
-	if (one.classList.contains('hidden')) one.classList.remove('hidden')
-	else one.classList.add('hidden')
-}
+	const one = document.getElementsByClassName('one')[0];
+	if (one.classList.contains('hidden')) one.classList.remove('hidden');
+	else one.classList.add('hidden');
+};
 
 document.getElementById('anim').onclick = () => {
-	const stuff = document.getElementById('stuff')
-	if (stuff.classList.contains('animated')) stuff.classList.remove('animated')
-	else stuff.classList.add('animated')
-}
+	const stuff = document.getElementById('stuff');
+	if (stuff.classList.contains('animated')) stuff.classList.remove('animated');
+	else stuff.classList.add('animated');
+};
 
-document.getElementById('txt-first-name').onkeyup = (ev) => {
+document.getElementById('txt-first-name').onkeyup = ev => {
 	// document.getElementById('txt-first-name).value
 	document.getElementById('result').innerHTML = ev.target.value;
-}
+};

@@ -1,0 +1,11 @@
+{
+	"type": "module",
+	"scripts": {
+		"lint": "eslint --fix"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.10.0",
+		"@stylistic/eslint-plugin": "^2.8.0",
+		"globals": "^15.9.0"
+	}
+}
