@@ -24,10 +24,12 @@ const updateExercises = showExercise1 => {
 	}
 };
 
-document.getElementById('show-one').onclick = () => {
+document.getElementById('show-one').onclick = ev => {
+	ev.preventDefault();
 	updateExercises(true);
 };
-document.getElementById('show-two').onclick = () => {
+document.getElementById('show-two').onclick = ev => {
+	ev.preventDefault();
 	updateExercises(false);
 };
 
