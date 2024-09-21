@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Michael Davis - CSCE 242 -->
+		<link rel="stylesheet" href="styles.css" />
+		<title>JavaScript Conditionals - Assignment 6</title>
+	</head>
+	<body>
+		<h1>Assignment 6</h1>
+		<h2>If Statements</h2>
+		<div id="content">
+			<nav>
+				<p id="toggle-nav" class="hidden-large">▼</p>
+				<ul id="nav-items" class="hidden-small">
+					<li><a id="show-one" href="#">Exercise 1</a></li>
+					<li><a id="show-two" href="#">Exercise 2</a></li>
+				</ul>
+			</nav>
+			<div id="color-slider" class="box">
+				<h3>Color Slider</h3>
+				<input
+					type="range"
+					min="1"
+					max="100"
+					value="1"
+					class="slider"
+					id="slider"
+				/>
+				<p id="color-msg">Cold</p>
+			</div>
+			<div id="picture-chooser" class="box hidden">
+				<h3>Picture Chooser</h3>
+				<button id="small">Small</button>
+				<button id="medium">Medium</button>
+				<button id="large">Large</button>
+				<div id="picture-container">
+					<img id="picture" />
+				</div>
+			</div>
+			<footer>@mad1826</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
