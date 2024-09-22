@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- MD -->
+		<link rel="stylesheet" href="styles.css" />
+		<title>Administrator - CouPonder</title>
+	</head>
+	<body>
+		<header id="main-header">
+			<div id="top-row" class="columns-all">
+				<h1>CouPonder<img src="images/dollar.png" />com</h1>
+				<div id="header-icons">
+					<a href="admin.html">
+						<img id="admin" src="images/admin.png" />
+					</a>
+					<a href="cart.html">
+						<img src="images/cart.png" />
+					</a>
+				</div>
+			</div>
+			<nav id="main-nav">
+				<div id="toggle-nav">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<ul id="nav-items" class="hidden-small">
+					<li><a href="index.html">Featured</a></li>
+					<li><a href="grocery.html">Grocery</a></li>
+					<li><a href="entertainment.html">Entertainment</a></li>
+					<li><a href="hygiene.html">Hygiene</a></li>
+					<li><a href="privacy.html">Privacy Policy</a></li>
+					<li><input id="search" type="text" placeholder="Search" /></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="content">
+			<h2 id="admin-header">Administrator Only</h2>
+			<h3>Add Item</h3>
+			<div class="mng-item">
+				<div class="columns-all">
+					<label for="id">Item ID</label>
+					<input id="id" type="text" />
+				</div>
+				<div class="columns-all">
+					<label for="image-upload">Select an image</label>
+					<input id="image-upload" type="file" />
+				</div>
+				<div class="columns-all">
+					<label for="type">Item Type</label>
+					<select id="type">
+						<option value="featured">Featured</option>
+						<option value="featured">Grocery</option>
+						<option value="featured">Entertainment</option>
+						<option value="featured">Hygiene</option>
+					</select>
+				</div>
+				<div class="columns-all">
+					<label for="name">Item Name</label>
+					<input id="name" type="text" />
+				</div>
+				<div class="columns-all">
+					<label for="store-name">Store Name</label>
+					<input id="store-name" type="text" />
+				</div>
+				<div class="columns-all">
+					<label for="store-logo">Store Logo</label>
+					<input id="store-logo" type="file" />
+				</div>
+				<div class="columns-all">
+					<label for="old">Normal Price</label>
+					<input id="old" type="text" />
+				</div>
+				<div class="columns-all">
+					<label for="new">Deal or New Price</label>
+					<input id="new" type="text" />
+				</div>
+				<div class="columns-all">
+					<label for="expires">Expires At</label>
+					<input id="expires" type="text" />
+				</div>
+				<div class="columns-all">
+					<label for="qualifying-items">Qualifying Items (Optional)</label>
+					<input id="qualifying-items" type="text" />
+				</div>
+				<div class="columns-all">
+					<label for="details">Coupon Details (Optional)</label>
+					<input id="details" type="text" />
+				</div>
+			</div>
+			<button id="add-item">Add Item</button>
+			<h3>Remove Item</h3>
+			<div class="mng-item">
+				<div class="columns-all">
+					<label for="id">Item ID</label>
+					<input id="id" type="text" />
+				</div>
+			</div>
+			<button id="remove-item">Remove Item</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
