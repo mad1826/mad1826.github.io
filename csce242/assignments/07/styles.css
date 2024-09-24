@@ -1,0 +1,75 @@
+body {
+	background-color: gray;
+	text-align: center;
+	color: darkblue;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0 10px;
+}
+
+#error {
+	color: red;
+}
+
+#container {
+	position: relative;
+	background-color: lightgray;
+	margin: 20px auto;
+	outline: solid skyblue 3px;
+	border-radius: 5px;
+	width: 420px;
+	text-align: left;
+	padding: 10px;
+}
+
+label {
+	margin-right: 5px;
+}
+
+input {
+	width: 50px;
+}
+
+#drawable-area {
+	position: relative;
+	background-color: black;
+	width: 420px;
+	height: 420px;
+}
+
+#drawable-area span {
+	color: yellow;
+	position: absolute;
+	cursor: pointer;
+}
+
+/* Source: John Negoita @ https://www.coding-dude.com/wp/css/css-star/#google_vignette */
+.six-pointed-star {
+	--star-color: yellow;
+	--sqrt-3: 1.73205080757;
+	margin: 0 auto;
+	font-size: 0.5em;
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-bottom: calc(1em * var(--sqrt-3)) solid var(--star-color);
+}
+
+.six-pointed-star:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -1em;
+	top: calc(1em * var(--sqrt-3) / 3);
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: calc(1em * var(--sqrt-3)) solid var(--star-color);
+}
+
+@media only screen and (min-width: 600px) {
+	body {
+		margin: 0 50px;
+	}
+}
