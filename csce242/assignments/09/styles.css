@@ -1,0 +1,64 @@
+body {
+	background-color: lightgray;
+	text-align: center;
+	color: darkblue;
+	margin: 0 10px;
+}
+
+h1,
+h2,
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#modal {
+	display: none;
+}
+
+#container {
+	position: relative;
+	margin: auto;
+	border-radius: 5px;
+	width: fit-content;
+	margin-bottom: 20px;
+	max-width: 90%;
+}
+
+section {
+	background-color: darkblue;
+	color: paleturquoise;
+}
+
+section img {
+	max-height: 50vh;
+	margin: 0px 20px 20px;
+	max-width: 80%;
+}
+
+#modal-content {
+	background-color: lightgray;
+	text-align: left;
+}
+
+#modal img {
+	width: 30%;
+	float: right;
+	margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 850px) {
+	.columns {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	section {
+		flex: 1;
+		margin: 20px;
+		max-width: 25%;
+	}
+
+	section img {
+		margin: 0px auto 20px auto;
+	}
+}
