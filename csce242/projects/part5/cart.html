@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- MD -->
+		<link rel="stylesheet" href="styles.css" />
+		<title>Cart - CouPonder</title>
+	</head>
+	<body>
+		<header id="main-header">
+			<div id="top-row" class="columns-all">
+				<h1>CouPonder<img src="images/dollar.png" />com</h1>
+				<div id="header-icons">
+					<a href="admin.html">
+						<img id="admin" src="images/admin.png" />
+					</a>
+					<a href="cart.html">
+						<img src="images/cart.png" />
+					</a>
+				</div>
+			</div>
+			<nav id="main-nav">
+				<div id="toggle-nav">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<ul id="nav-items" class="hidden-small">
+					<li><a href="index.html">Featured</a></li>
+					<li><a href="grocery.html">Grocery</a></li>
+					<li><a href="entertainment.html">Entertainment</a></li>
+					<li><a href="hygiene.html">Hygiene</a></li>
+					<li><a href="privacy.html">Privacy Policy</a></li>
+					<li><input id="search" type="text" placeholder="Search" /></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="content">
+			<div id="cart-header">
+				<h2 class="left">Welcome back, <span class="bold">Michael!</span></h2>
+				<button class="right bold">REMOVE ALL</button>
+				<h2 class="right">Total Coupons: 3</h2>
+			</div>
+			<div id="cart-list">
+				<div class="cart-coupon">
+					<img class="image" src="images/grocery/apple.png" />
+					<div class="cart-coupon-details">
+						<h3 class="name">Apples</h3>
+						<h3 class="store-name">Food Lion</h3>
+						<img class="share" src="images/share.png" />
+						<p class="price">
+							<span class="strikethrough">$5.00/oz</span>
+							<span class="red">$2.99/oz</span>
+						</p>
+						<p class="notes">
+							Only applicable toward Fuji, Granny Smith, and Golden apples.
+						</p>
+						<p class="expires-at">Exp. 1/1/25</p>
+						<img class="remove" src="images/trash.png" />
+					</div>
+				</div>
+				<div class="cart-coupon">
+					<img class="image" src="images/hygiene/crest-toothpaste.jpg" />
+					<div class="cart-coupon-details">
+						<h3 class="name">Crest Toothpaste</h3>
+						<h3 class="store-name">CVS</h3>
+						<img class="share" src="images/share.png" />
+						<p class="price">
+							<span class="red">Buy One, Get One Free</span>
+						</p>
+						<p class="notes">Qualifying Items: Single pack, Double packs</p>
+						<p class="expires-at">Exp. 1/1/25</p>
+						<img class="remove" src="images/trash.png" />
+					</div>
+				</div>
+				<div class="cart-coupon">
+					<img class="image" src="images/hygiene/sinex-saline.jpg" />
+					<div class="cart-coupon-details">
+						<h3 class="name">Sinex Saline</h3>
+						<h3 class="store-name">CVS</h3>
+						<img class="share" src="images/share.png" />
+						<p class="price">
+							<span class="red">Buy One, Get One Free</span>
+						</p>
+						<p class="notes"></p>
+						<p class="expires-at">Exp. 1/1/25</p>
+						<img class="remove" src="images/trash.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<ul>
+				<li>&copy; mad1826 2024</li>
+				<li>
+					Images by <a href="https://www.freepik.com/">FreePik</a> and
+					<a href="https://images.google.com/">Google Images</a>
+				</li>
+				<li><a href="mailto: support@couponder.com">Contact Us</a></li>
+			</ul>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
