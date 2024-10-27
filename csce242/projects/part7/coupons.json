@@ -20,7 +20,8 @@
 		"image": "crest-toothpaste.jpg",
 		"name": "Crest Toothpaste",
 		"store": {
-			"name": "CVS"
+			"name": "CVS",
+			"location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.735738225325!2d-81.0330186579937!3d33.995927487776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb29bd47bb0d%3A0x8483a80ae0f2d231!2sCVS!5e0!3m2!1sen!2sus!4v1730067276718!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 		},
 		"prices": ["4.00", "0.00"],
 		"deal": "Buy One, Get One Free",
@@ -59,7 +60,8 @@
 		"image": "oral-b-toothbrush.jpg",
 		"name": "Oral-B Toothbrush",
 		"store": {
-			"name": "CVS"
+			"name": "CVS",
+			"location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.735738225325!2d-81.0330186579937!3d33.995927487776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb29bd47bb0d%3A0x8483a80ae0f2d231!2sCVS!5e0!3m2!1sen!2sus!4v1730067276718!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 		},
 		"prices": ["15.00", "11.99"],
 		"deal": "Buy One, Get One 50% Off",
@@ -181,7 +183,8 @@
 		"image": "cerave-hydrating-facial-cleanser.jpg",
 		"name": "CeraVe Hydrating Facial Cleanser",
 		"store": {
-			"name": "CVS"
+			"name": "CVS",
+			"location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.735738225325!2d-81.0330186579937!3d33.995927487776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb29bd47bb0d%3A0x8483a80ae0f2d231!2sCVS!5e0!3m2!1sen!2sus!4v1730067276718!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 		},
 		"prices": ["5.00", "2.99"],
 		"deal": null,
@@ -193,7 +196,8 @@
 		"image": "dayquil-nyquil.jpg",
 		"name": "DayQuil/NyQuil Bundle",
 		"store": {
-			"name": "CVS"
+			"name": "CVS",
+			"location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.735738225325!2d-81.0330186579937!3d33.995927487776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb29bd47bb0d%3A0x8483a80ae0f2d231!2sCVS!5e0!3m2!1sen!2sus!4v1730067276718!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 		},
 		"prices": ["5.00", "2.49"],
 		"deal": "Buy One, Get One 50% Off",
@@ -206,7 +210,8 @@
 		"image": "dove-body-wash.jpg",
 		"name": "Dove Body Wash",
 		"store": {
-			"name": "CVS"
+			"name": "CVS",
+			"location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.735738225325!2d-81.0330186579937!3d33.995927487776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb29bd47bb0d%3A0x8483a80ae0f2d231!2sCVS!5e0!3m2!1sen!2sus!4v1730067276718!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 		},
 		"prices": ["5.00", "2.49"],
 		"deal": "Buy One, Get One 50% Off",
@@ -219,7 +224,8 @@
 		"image": "nature-made-vitamin-c.jpg",
 		"name": "Nature Made Vitamin C",
 		"store": {
-			"name": "CVS"
+			"name": "CVS",
+			"location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.735738225325!2d-81.0330186579937!3d33.995927487776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb29bd47bb0d%3A0x8483a80ae0f2d231!2sCVS!5e0!3m2!1sen!2sus!4v1730067276718!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 		},
 		"prices": ["5.00", "2.49"],
 		"deal": "Buy One, Get One 50% Off",
@@ -232,7 +238,8 @@
 		"image": "secret-deodorant-spray.jpg",
 		"name": "Secret Full Body Deodorant Spray",
 		"store": {
-			"name": "CVS"
+			"name": "CVS",
+			"location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.735738225325!2d-81.0330186579937!3d33.995927487776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb29bd47bb0d%3A0x8483a80ae0f2d231!2sCVS!5e0!3m2!1sen!2sus!4v1730067276718!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 		},
 		"prices": ["5.00", "2.49"],
 		"deal": "Buy One, Get One 50% Off",
@@ -244,7 +251,8 @@
 		"image": "sinex-saline.jpg",
 		"name": "Sinex Saline",
 		"store": {
-			"name": "CVS"
+			"name": "CVS",
+			"location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.735738225325!2d-81.0330186579937!3d33.995927487776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb29bd47bb0d%3A0x8483a80ae0f2d231!2sCVS!5e0!3m2!1sen!2sus!4v1730067276718!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 		},
 		"prices": ["5.00", "2.49"],
 		"deal": "Buy One, Get One 50% Off",
